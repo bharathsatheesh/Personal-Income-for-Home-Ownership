@@ -1,0 +1,16 @@
+README: HOMEWORK 05
+
+
+PREPROCESSING
+If using the census dataset, then first run the external script by calling string_CVS_read to obtain data and column labels. However, SKIP if using spam dataset (no column labels as well).
+
+The code is the same for both datasets.
+
+
+RUNNING INSTRUCTIONS:
+a) Run only HW05 as it will call all the other files. 
+b) Run particular(labelled) sections to access the different parts of code.
+c) Repeat for the other dataset as well.
+d) string_CVS_read should only be called in Census and not spam for preprocessing.
+
+NOTE: If using census dataset, you will need to pass in another argument {column_labels} and add the same to the predict method in the DecisionTree class ( Im sorry! I didn't know how to create default values for functions in MATLAB)
